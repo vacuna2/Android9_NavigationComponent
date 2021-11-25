@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationcomponent.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navigationcomponent.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navigationcomponent.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/imagen1Fragment"
+        android:name="com.example.navigationcomponent.imagen1Fragment"
+        android:label="fragment_imagen1"
+        tools:layout="@layout/fragment_imagen1" />
+    <fragment
+        android:id="@+id/imagen3fragment"
+        android:name="com.example.navigationcomponent.imagen3fragment"
+        android:label="fragment_imagen3fragment"
+        tools:layout="@layout/fragment_imagen3fragment" />
+    <fragment
+        android:id="@+id/imagen2fragment"
+        android:name="com.example.navigationcomponent.imagen2fragment"
+        android:label="fragment_imagen2fragment"
+        tools:layout="@layout/fragment_imagen2fragment" />
+    <fragment
+        android:id="@+id/operacionesFragment"
+        android:name="com.example.navigationcomponent.OperacionesFragment"
+        android:label="fragment_operaciones"
+        tools:layout="@layout/fragment_operaciones" />
+</navigation>
